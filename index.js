@@ -57,7 +57,7 @@ wss.on("connection", (ws, req) => {
       }
     }
 });
-console.log("The WebSocket server is running on port 8080");
+console.log("The WebSocket server is running on port 8081");
 
 function getUserByID(id) {
   for (var i=0; i<users.length; i++) {
@@ -69,4 +69,4 @@ function getUserByID(id) {
   return null;
 }
 
-server.listen(8080);
+server.listen(8081);
